@@ -1,6 +1,14 @@
+/* style.css */
+@font-face {
+    font-family: 'kanghuagirl'; /* 自定义字体名称 */
+    src: url('files/kanghuagirl.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* 基础样式 */
 body {
-    font-family: Arial, sans-serif;
+    font-family:'kanghuagirl',Arial,sans-serif;
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto;
