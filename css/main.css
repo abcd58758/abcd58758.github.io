@@ -1,7 +1,7 @@
 /* style.css */
 @font-face {
     font-family: 'kanghuagirl'; /* 自定义字体名称 */
-    src: url('files/kanghuagirl.ttf') format('ttf');
+    src: url('kanghuagirl.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
