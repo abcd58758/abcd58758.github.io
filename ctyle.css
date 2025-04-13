@@ -1,11 +1,27 @@
 body {
-  font-size: 16px; /* 全局基础字号 */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }
-
 h1 {
-  font-size: 2em; /* 继承 body 的 16px * 2 = 32px */
+  color: #2c3e50;
+  margin-bottom: 30px;
 }
-
-.responsive-text {
-  font-size: clamp(1rem, 2vw, 1.5rem); /* 根据视口宽度自适应 */
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+a:hover {
+color: #2980b9;
 }
