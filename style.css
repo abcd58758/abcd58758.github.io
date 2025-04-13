@@ -34,3 +34,8 @@ a {
 a:hover {
     color: #2980b9;
 }
+
+t {
+    color: #808080;
+    font-size: 5px
+}
