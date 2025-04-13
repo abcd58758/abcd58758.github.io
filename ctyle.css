@@ -1,0 +1,11 @@
+body {
+  font-size: 16px; /* 全局基础字号 */
+}
+
+h1 {
+  font-size: 2em; /* 继承 body 的 16px * 2 = 32px */
+}
+
+.responsive-text {
+  font-size: clamp(1rem, 2vw, 1.5rem); /* 根据视口宽度自适应 */
+}
